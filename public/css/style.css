@@ -1,0 +1,993 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    min-height: 100%;
+}
+
+
+/* Inicio Configuração Header  */
+
+.logoSize {
+    max-width: 220px;
+    width: 100%;
+}
+
+a.efeitoTransicao {
+    color: black;
+    font-size: 1.25rem;
+    font-weight: bolder
+}
+
+a.efeitoTransicao:hover {
+    color: limegreen;
+    transition: 0.3s;
+
+}
+
+.grow:hover
+{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+
+.marginHeader {
+    margin-right: 25%;
+
+}
+
+.logoMargin {
+    margin-left: 25%;
+}
+
+.headerBurg {
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Fim configuração Header */
+
+/* Inicio configuracao FAQ */
+
+h1.h1FAQ {
+    color: limegreen;
+    font-size: 40px;
+    font-weight: bolder;
+    
+    font-family: 'Poppins', sans-serif; 
+}
+
+.alterarBtnLetra {
+    color: white;
+    font-size: 20px
+}
+
+.alterarBtnLetra:hover {
+    color: black;
+    text-decoration: none;
+
+}
+
+/* Inicio Configuraçao Home */
+
+/* .recicla-texto {
+    background-color: #75d1ce;
+} */
+
+
+
+.card-title {
+    margin-bottom: 40px;
+}
+
+.card-text {
+    margin-bottom: 40px;
+}
+.card1-home {
+    margin-bottom: 3rem;
+    border: 0;
+    background: #fff;
+    border: 0 solid #fff;
+    box-shadow: 2px 3px 10px 0px rgba(119,119,119,0.1);
+    transition: all .5s ease-in-out;
+    margin-top: 30px;
+
+}
+
+.margem-card {
+    margin-left: 1px;
+    margin-right: 1px;
+    padding: 2px;
+}
+
+
+
+
+.img-texto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.main-pag-home {
+    padding: 0;
+}
+
+.mapa-home {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
+
+.texto-card-home-mapa {
+    font-family: 'Poppins', sans-serif; 
+}
+
+.card-home-mapa {
+    background-color: white;
+    color: black;
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.titulo-card-home {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    line-height: 1.6;
+}
+
+.titulo-card-home-loja {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 100px;
+    line-height: 1.6;
+}
+
+.texto-card-home {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    
+}
+
+.texto-card-home-loja {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    
+}
+
+.texto-info-home {
+    margin-top: 40px;
+    
+}
+
+.color-title {
+    color: #28a745;
+    font-weight: 600;
+}
+
+
+
+.loja-anuncio {
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../img/bannerloja2.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+.botao-loja-home {
+    margin-top: 200px;
+    margin-left: 100px;
+
+}
+
+.loja-anuncio-titulo {
+    margin-bottom: 30px;
+}
+
+.acesso-mapa {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.texto2-mapa {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+/* Fim configuração Home */
+
+
+
+/* Inicio configuração sobre nos */
+div.sobre{
+    text-align: left;
+   
+}
+
+article.texto{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    padding-right: 10px;
+    
+}
+
+div.foto{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#margem{
+    margin-bottom: 35px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.space {
+    margin-bottom: 20px;
+}
+
+img.responsivo{
+    display: none;
+}
+
+/* Fim configuração sobre nos */
+
+
+
+/* Inicio configuração contato */
+
+.frase-contato {
+    padding: 0;
+}
+
+
+
+.text-primary {
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contact-address-list  {
+    list-style: none;
+}
+
+.contact-address-list li {
+    border-top: 0.3px solid rgba(0, 255, 0, 0.5);
+    padding: 15px;
+}
+
+.user-details-image img {
+    width: 130px;
+    height: 130px;
+    padding: 5px;
+    border: 2px solid green;
+}
+
+.user-info-settings {
+    margin-top: 30px;
+}
+
+.text-success {
+    margin-bottom: 20px;
+}
+
+.text-label {
+    font-family: 'Poppins', sans-serif;
+}
+
+.user-intro p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-addresses {
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.user-info-settings {
+    margin-left: 15px;
+}
+
+.dadosContato .card {
+    border: 1px solid green;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+textarea {
+    resize: none;
+}
+
+.card-body user-details-contact text-center {
+    margin-right: 15px;
+    
+
+}
+
+div#imgform {
+    align-items: center;
+    margin: auto;
+}
+
+p#frase {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 30px;
+    color:white;
+    margin-top: 30px;
+}
+
+.recycle-feeds .recycle-icon {
+    float: left;
+    margin: 0 20px 0 15px;
+    font-size: 3em;
+    color: #3a4543;
+    text-align: center;
+    width: 95px;
+    height: 95px;
+    display: block;
+    line-height: 95px;
+    background-color: #1caa09
+}
+
+.recycle-feeds .recycle-icon i {
+    color: white;
+}
+
+.recycle-feeds {
+    background-color: #1caa09;
+    margin-top: 5px;
+}
+
+.card-banner {
+    border: none;
+}
+
+/* Fim configuração Contato */
+
+
+/* Incio Configuração mapa */
+
+#map {
+    height: 100%;
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .city_head .photo {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+    width: 75px;
+    height: 75px;
+    vertical-align: top;
+}
+
+.city_head .opensearch {
+    height: 75px;
+    background: #343744;
+    width: 70px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.trash_type a.active {
+    background-position: 0px 0px;
+}
+
+.trash_type_title {
+    font-size: 15px;
+    color: #333333;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.text-busca  {
+    color: #ffffff;
+    font-size: 17px;
+    line-height: normal;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.botao-pesquisa {
+    background: #454853;
+    border: none;   
+
+}
+
+/* Fim configuração mapa */
+
+
+
+
+/*Início Configuração Footer*/
+
+.rodape{
+    background: #000000;
+    padding-top:30px;
+    padding-bottom:30px;
+    font-size: 0.9rem;
+    font-family: 'Poppins';
+    margin-bottom: 0;
+}
+
+.nav-item-newsletter{
+    width:100%;
+    
+}
+
+.div-icones{
+    margin:30px;
+    display: inline-flex;
+  
+}
+
+.newsletter-email{
+     width:100%;
+ }
+
+.footer-logo-size{
+   margin-top:40px;
+   margin-left:60px;
+}
+
+.marginFooter{
+    margin:20px;
+}
+
+.nav-item-redes-sociais{
+    padding:10px;
+}
+
+.menu-footer{
+   color:white;
+   font-weight:bold;
+}
+
+.foot5{
+    background-color: #000000; 
+    color:white; 
+    font-size: 0.8rem;  
+    line-height: 1.0rem; 
+    display:flex;
+    justify-content: center;
+   
+}
+
+.ul-icones-footer{
+    display: flex;
+    justify-content: space-around;
+    direction:row;
+    list-style: none;
+    width:140px;
+    margin-right:0;
+}
+
+.icones-footer{
+    width:60px;
+    font-size: 25px;
+}
+
+/* Inicio configuração formulario de login */
+
+.paginaLogin{
+    background-color:rgba(8, 192, 8,0.8);
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.display-4{
+    font-size:1.5em;
+    display:flex;
+    justify-content: center;
+}
+
+
+/* Fim configuração formulario de login */
+
+
+
+/* Inicio configuração formulario de cadastro */
+
+.paginaCadastro{
+    border: solid 0.5px lightgray;
+    }
+
+
+.content-usuario{
+    color:black;
+    background-color: white;
+    border-radius: 9px;
+    width:600px;
+}
+
+
+.dialogUsuario{
+    overflow-y:initial; 
+}
+
+.bodyUsuario{
+    height: 400px;
+    overflow-y: auto;
+}
+
+
+
+/* Fim configuração formulario de cadastro */
+
+/* Inicio configuração interna produto*/
+
+.border-carousel {
+    border: 1px solid rgba(0, 255, 0, 0.5)
+}
+
+.btn-comprar {
+    margin-right: 200px;
+}
+
+.price  {
+    font-size: 22px;
+    font-weight: 500;
+    color: #00A26A;
+
+}
+
+.shop_item .entry {
+    position: relative;
+}
+.shop_item .entry {
+    border: 1px solid #e8e8e8;
+}
+
+.row .shop_item {
+    min-height: auto!important;
+    height: auto!important;
+}
+.shop_item {
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+.shop_item {
+    margin-bottom: 20px;
+}
+
+    
+
+
+
+.cart_table img {
+    margin-right:10px;
+}
+
+
+div.thumbnails{
+    padding-top:10px;
+    zoom:1
+}
+div.thumbnails .entry {
+    border:1px solid #ffffff;
+    float:left;
+    width:100%;
+    margin-right:4.9%
+}
+div.thumbnails .magnifier .buttons {
+    top:40%;
+}
+.top-toolbar .pagination_wrapper{display:none;}
+.bottom-toolbar .amount,.bottom-toolbar .limiter{display:none;}
+.btn-shop .form-control:focus {
+    box-shadow:none;
+}
+.btn-shop .form-control {
+    width:45px;
+    border-radius:0;
+    background: #EFEFEF;
+    border-color: #DDDDDD;
+    height:34px !important;
+    text-align: center;
+    margin:0;
+    padding: 6px 0px;
+    padding-right:0;
+}
+#buddypress_features .nav li,
+#shop_features .nav li {
+    text-transform:uppercase;
+    font-weight:bold;
+    font-size:14px;
+} 
+#buddypress_features,
+#shop_features {
+    padding:40px 0;
+    margin:0;
+    overflow:hidden;
+}
+.tabbable .nav-tabs {
+    background: #E1E1E1;
+    border: 1px solid #D7D7D7 !important;
+}
+#buddypress_features .nav-tabs{
+    background:  #222;
+    border:none;
+}    
+#shop_features .nav-tabs {
+    height: 50px;
+    background:  #00A26A;
+    border: 1px solid #DDDDDD;
+}
+#buddypress_features .nav-tabs > li > a,
+#custom_tab .nav-tabs > li > a,
+#shop_features .nav-tabs > li > a {
+    
+    border-radius:0;
+    border-bottom: 1px solid #DDDDDD;
+    line-height:2.1;
+}
+
+.titulo-prod {
+    background-color: black;
+    color: white;
+    padding: 13px;
+}
+
+
+#buddypress_features .tab-content,
+#custom_tab .tab-content,
+#shop_features .tab-content {
+    padding:20px; 
+    border-bottom:1px solid #DDDDDD !important; 
+    border-right:1px solid #DDDDDD !important; 
+    border-left:1px solid #DDDDDD !important;
+    overflow:hidden;
+}
+#buddypress_features .nav-tabs > li > a{
+    color:#fff !important;
+    border:none !important;
+}
+#buddypress_features .nav i {
+    text-align:center;
+    display:block;
+    font-size:24px;
+}
+#custom_tab .tab-content ul li,
+#shop_features .tab-content ul li {
+    list-style:square;
+}
+#custom_tab .tab-content ul,
+#shop_features .tab-content ul { 
+    padding:0 0 10px 20px
+}
+.btn-shop span {
+    background: #00A26A;
+    -moz-user-select: none;
+    background-image: none;
+    border: 0;
+    border-radius: 0;
+    cursor: pointer;
+    display: inline-block;
+    height: 34px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857;
+    margin: 0px -2px 0px 2px;
+    color: #FFFFFF;
+    padding: 7px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.shop_item_details ul {
+    padding-left:0;
+    margin:15px 0;
+    overflow:hidden;
+}
+.shop_item_details strong {
+    color:#181818;
+    padding-right:10px;
+}
+.shop_item_details ul li {
+    list-style:none;
+    margin:0 0 12px;
+}
+.shop-right .title h2,.shop-right .title h1 {
+    margin-bottom:5px;
+    padding-bottom:0;
+    font-size:22px;
+}
+.shop-right .title .rating {
+    margin-bottom:12px;
+    margin-top:8px;
+}
+.shop_item {
+    margin-bottom:20px;
+}
+.shop_item .magnifier .buttons {
+    top:38%;
+    margin-top:0 !important;
+}
+
+
+
+.bg-preto{
+    background-color: #333333
+}
+
+a.efeitoTransicaoLoja {
+    color: limegreen;
+    font-size: 20px;
+    font-weight: bolder
+}
+
+a.efeitoTransicaoLoja:hover {
+    color: white;
+    transition: 0.3s;
+
+}
+
+.bg-verde {
+    background-color: limegreen
+}
+
+.marginSubMenu {
+    margin-left: 49%;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.letraSubMenu {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#lojaCategorias.secao {
+    padding: 60px 0px;
+    margin: 0;
+    background-color:#333333;
+  }
+  
+  .lojaCategorias {
+    text-align: center;
+  }
+  
+  .lojaCategorias .categoriasEcomm {
+    margin-bottom: 30px;
+  }
+  
+  .lojaCategorias .categoriasEcomm>li {
+    position: relative;
+    display: inline-block;
+    width: 170px;
+    height: 170px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0px 5px;
+    font-size: 20px
+  }
+  
+  .lojaCategorias .categoriasEcomm>li>div {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+ .decoracaoTxtLoja {
+    color: white;
+    margin-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.60rem;
+  }
+  
+  
+  
+  .lojaCategorias p {
+    text-transform: uppercase;
+    font-size: 24px;
+  }
+  
+  .lojaCategorias .cta-btn {
+    margin-top: 15px;
+  }
+
+.decoracaoH2Loja {
+    color: white;
+    margin-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.lojaCategorias .categoriasEcomm .liSemBola {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.lojaCategorias .categoriasEcomm>li>div>h3>a {
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+
+.lojaCategorias .categoriasEcomm>li>div>h3>a:hover {
+    color: limegreen
+}
+
+.h1LojaHome {
+    color: #333333;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder
+}
+
+.linha {
+    background-color: limegreen;
+    width: 100%;
+    height: 10%;
+}
+
+.precoLoja {
+    color: forestgreen;
+    font-weight: bolder;
+    font-size: 20px
+}
+
+.colorPagination {
+    color: limegreen;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.btn-primary {
+        background-color: #28a745!important;
+    border-color: #28a745!important;
+}
+
+.lojaBurg {
+    color: limegreen;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
+
+/* fim configuracoes loja */ 
+
+/* Media Query */
+
+/* xs */
+@media (max-width: 767px) {
+
+    /* Inicio configuracao header burger */
+
+    
+    .displayQuery {
+        display: none;
+    }
+
+    .displayBurg {
+        width: 100%
+    }
+
+    .logoMargin {
+        margin: 0
+    }
+
+    
+      
+    /* Fim configuracao header burger */
+
+    /* Inicio configuracao sobre nos */
+
+    .recycle-feeds{
+        display: none;
+    }
+    img.responsivo{
+        display: block;
+    }
+    img.desktop{
+        display: none;
+    }
+    
+    /* Fim configuracao sobre nos */
+
+    /* interna produto */
+
+    .btn-comprar {
+        margin-right: 0px;
+    }
+
+}
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* inicio header burger */
+    .displayQuery {
+        display: none;
+    }
+    .displayBurg {
+        width: 100%
+    }
+
+    .logoMargin {
+        margin: 0
+    }
+
+    
+    
+    /* fim header burger */
+}
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.displayBurg {
+        display: none;
+    }
+}
+/* lg */
+@media (min-width: 1200px) {
+	.displayBurg {
+        display: none;
+    }
+}
+
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+
+    .displayQuery {
+        display: none;
+    }
+    .displayBurg {
+        width: 100%;
+        display: block;
+    }
+
+    .logoMargin {
+        margin: 0
+    }
+
+}
+
+
