@@ -11,7 +11,7 @@
 		<div class="col-8">
 			<ul class="nav marginHeader justify-content-end">
 				<li class="nav-item">
-					<a class="nav-link active grow efeitoTransicao" href="index.php">Home</a>
+					<a class="nav-link active grow efeitoTransicao" href="/">Home</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link grow efeitoTransicao" href="mapa.php">Mapa</a>
@@ -20,7 +20,7 @@
 					<a class="nav-link grow efeitoTransicao" href="loja.php">Loja</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link grow efeitoTransicao" href="sobre.php">Sobre</a>
+					<a class="nav-link grow efeitoTransicao" href="/sobre">Sobre</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link grow efeitoTransicao" href="contato.php">Contato</a>
@@ -48,7 +48,7 @@
             <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0 text-center">
                     <li class="nav-item">
-                        <a class="nav-link headerBurg" href="index.php">Home</a>
+                        <a class="nav-link headerBurg" href="/">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link headerBurg" href="mapa.php">Mapa</a>
@@ -57,7 +57,7 @@
                         <a class="nav-link headerBurg" href="loja.php">Loja</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link headerBurg" href="sobre.php">Sobre</a>
+                        <a class="nav-link headerBurg" href="/sobre">Sobre</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link headerBurg" href="contato.php">Contato</a>

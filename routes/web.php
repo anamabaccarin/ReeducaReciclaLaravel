@@ -12,3 +12,7 @@
 */
 
 Route::get('/', 'HomeController@index');
+
+Route::get('/sobre', function () {
+    return view('sobre');
+});
