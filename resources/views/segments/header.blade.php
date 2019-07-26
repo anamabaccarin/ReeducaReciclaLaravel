@@ -23,7 +23,7 @@
 					<a class="nav-link grow efeitoTransicao" href="/sobre">Sobre</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link grow efeitoTransicao" href="contato.php">Contato</a>
+					<a class="nav-link grow efeitoTransicao" href="/contato">Contato</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link grow efeitoTransicao" href="login.php">Login</a>
@@ -60,7 +60,7 @@
                         <a class="nav-link headerBurg" href="/sobre">Sobre</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link headerBurg" href="contato.php">Contato</a>
+                        <a class="nav-link headerBurg" href="/contato">Contato</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link headerBurg" href="login.php">Login</a>
