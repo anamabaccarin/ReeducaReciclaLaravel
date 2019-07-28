@@ -14,7 +14,11 @@
         <!-- Fim banner -->
     </div>
 
-    <b>{{ $msg }}</b>
+@unless ( empty($msg) )
+    <script language="JavaScript">
+        alert('{{ $msg }}');
+    </script>
+@endunless
 
     <div class="container-fluid">
         <div class="row">
